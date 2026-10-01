@@ -65,6 +65,18 @@ Kapanan ürünleri silmek yerine `status: "kapandi"` yapın.
 push'larda siteyi GitHub Pages'e yayınlar. İlk kurulumda bir kez:
 **Settings → Pages → Build and deployment → Source: GitHub Actions** seçilmelidir.
 
+## Ziyaret istatistikleri (StatCounter)
+
+1. [statcounter.com](https://statcounter.com)'da ücretsiz hesap açıp `https://sunugur.github.io/perks/` için proje ekleyin.
+2. Kurulum kodundaki `sc_project` ve `sc_security` değerlerini `config.json` dosyasına yazın:
+
+```json
+{ "statcounter": { "project": "1234567", "security": "abcd1234" } }
+```
+
+3. `main`'e gönderin; sayaç kodu tüm sayfalara eklenir ve "Yöntem & kaynaklar" sayfasına gizlilik notu çıkar.
+Alanlar boşken hiçbir analytics kodu eklenmez.
+
 ## Sorumluluk reddi
 
 Bu proje hiçbir banka, operatör veya markayla bağlantılı değildir. Bilgiler bilgilendirme amaçlıdır;
