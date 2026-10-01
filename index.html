@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perks TR – Kart, operatör, cashback ve sadakat avantajları</title>
+<meta name="description" content="Türkiye&#x27;deki kredi kartı, operatör aboneliği, cashback ve sadakat uygulamalarının avantajlarını karşılaştırın.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="list" data-base="">
+<header class="site-header"><div class="wrap">
+<a class="brand" href="index.html">Perks<span>TR</span></a>
+<nav class="nav"><a href="index.html" class="active">Tümü</a><a href="avantajlar.html">Avantaj türüne göre</a><a href="kampanyalar.html">Güncel kampanyalar</a><a href="karsilastir.html">Karşılaştır</a><a href="hakkinda.html">Yöntem &amp; kaynaklar</a></nav>
+<button class="theme-btn" id="theme-btn" type="button" aria-label="Tema değiştir">◐</button>
+</div></header>
+<main class="wrap">
+
+<section class="hero">
+<h1>Türkiye'deki kart, operatör, cashback ve sadakat avantajları tek yerde</h1>
+<p>Kredi kartlarından operatör ayrıcalıklarına, nakit iade cüzdanlarından Chippin, Oliz ve Hopi gibi sadakat uygulamalarına kadar
+hangi ürünün size ne kazandırdığını, ne kadara mal olduğunu ve şu an hangi kampanyaların sürdüğünü karşılaştırın.</p>
+<div class="stats" id="stats"></div>
+<div class="notice"><b>Son kontrol: 1 Ekim 2026.</b> Her bilginin yanında kaynağı ve güvenilirlik düzeyi var.
+"⚠ doğrulayın" işaretli kayıtlarda kısmi bilgi bulunur.</div>
+</section>
+<div class="cat-grid" id="cat-tiles"></div>
+<section id="liste">
+<div class="filters">
+  <div class="row">
+    <input type="search" id="f-q" placeholder="Ara: ör. akaryakıt, Netflix, mil, Migros…" aria-label="Ara">
+    <select id="f-cat" aria-label="Kategori"></select>
+    <select id="f-fee" aria-label="Ücret">
+      <option value="">Tüm ücretler</option><option value="free">Aidatsız / ücretsiz</option><option value="paid">Ücretli</option>
+    </select>
+    <select id="f-status" aria-label="Durum">
+      <option value="aktif">Sadece aktif</option><option value="tum">Kapananlar dahil</option>
+    </select>
+    <select id="f-sort" aria-label="Sıralama">
+      <option value="kategori">Kategoriye göre</option><option value="kampanya">En çok kampanya</option><option value="ad">A–Z</option>
+    </select>
+  </div>
+  <div class="chips" id="f-perks" aria-label="Avantaj türü"></div>
+  <div class="row"><span class="result-count" id="count"></span><button class="chip" id="f-reset" type="button">Filtreleri sıfırla</button></div>
+</div>
+<div class="grid" id="grid"></div>
+</section>
+</main>
+<div class="tray" id="tray"><div class="wrap"><b>Karşılaştır:</b><div class="sel"></div>
+<button class="btn ghost" id="tray-clear" type="button">Temizle</button>
+<button class="btn" id="tray-go" type="button">Karşılaştır →</button></div></div>
+<footer class="site-footer"><div class="wrap">
+<p>Perks TR – Türkiye'deki kredi kartı, operatör, cashback ve sadakat avantajlarının bağımsız derlemesi. Hiçbir kurumla bağlantılı değildir.</p>
+<p>Bilgiler bilgilendirme amaçlıdır; oran, ücret ve kampanyalar sık değişir. Karar vermeden önce resmi kaynağı kontrol edin.</p>
+</div></footer>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
